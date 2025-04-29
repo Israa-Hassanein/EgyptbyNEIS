@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مصر بعيون النيل</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0077b6;
+      --secondary-color: #023e8a;
+      --background-color: #eef6f9;
+      --section-bg: #ffffff;
+      --accent-color: #caf0f8;
+      --text-color: #222;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 2;
+    }
+
+    header {
+      background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--secondary-color);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    nav {
+      background-color: var(--secondary-color);
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: var(--section-bg);
+      padding: 50px;
+      border-radius: 18px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 25px;
+      font-size: 2em;
+    }
+
+    p {
+      margin-bottom: 25px;
+      font-size: 1.1em;
+      text-align: justify;
+    }
+
+    img, video {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .gallery-section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 50px;
+      background-color: var(--section-bg);
+      border-radius: 18px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+    }
+
+    .gallery-section h2 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 35px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(2, 62, 138, 0.85);
+      color: #fff;
+      padding: 15px;
+      font-size: 1em;
+      text-align: center;
+      transform: translateY(100%);
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover .gallery-info {
+      transform: translateY(0);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #f1f1f1;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مبادرة "مصر بعيون النيل"</h1>
+  </header>
+
+  <nav>
+    <a href="Index.html">الرئيسية</a>
+   
+  </nav>
+
+  <section id="page 2">
+    <h2>مشروع حياة كريمة في الريف المصري</h2>
+    <p>
+	تُعد مبادرة "حياة كريمة" من أكبر المشروعات القومية التي أطلقتها الدولة المصرية في العصر الحديث، وقد جاءت استجابة مباشرة للاحتياجات المُلحة لأكثر من نصف سكان مصر الذين يعيشون في الريف والمناطق الأكثر احتياجًا. وقد أُعلن عن انطلاق المبادرة رسميًا في يناير 2019، بتوجيه من القيادة السياسية، بهدف تحسين مستوى الحياة في القرى المصرية من خلال تدخلات شاملة في مجالات البنية التحتية والخدمات الصحية والتعليمية والاجتماعية والاقتصادية. وتُنفذ المبادرة تحت إشراف رئاسة مجلس الوزراء، وبالتنسيق مع مختلف الوزارات والمحافظات ومؤسسات المجتمع المدني والقطاع الخاص.
+
+تستهدف المرحلة الأولى من المبادرة تطوير أكثر من 4,500 قرية وتوابعها، ويستفيد منها نحو 60 مليون مواطن، أي ما يعادل 57% من إجمالي سكان مصر. وقد رُصدت ميزانية تقديرية للمشروع تصل إلى 700 مليار جنيه مصري، يتم تنفيذها على مدار عدة سنوات. وتشمل المبادرة عدة محاور رئيسية، من بينها بناء وتجديد المنازل، ومد شبكات الصرف الصحي ومياه الشرب، وتوصيل الغاز الطبيعي، وتطوير الطرق الداخلية، وإنشاء المجمعات الزراعية، وبناء المدارس والوحدات الصحية والمستشفيات، وإنشاء مراكز الشباب، وتوفير فرص العمل من خلال دعم المشروعات الصغيرة والمتوسطة ومتناهية الصغر.
+
+حتى نهاية عام 2023، تم الانتهاء من أكثر من 30% من مشروعات المرحلة الأولى، بما يشمل أكثر من 1,400 قرية، وشهدت هذه المناطق تحسنًا ملموسًا في جودة الحياة والخدمات. فقد تم مد شبكات مياه شرب نقية لأكثر من 2.7 مليون مواطن، وإنشاء أو تطوير ما يزيد عن 1,200 مدرسة، و800 وحدة صحية، وأكثر من 500 مركز شباب، فضلًا عن إنشاء آلاف الوحدات السكنية للفئات الأكثر احتياجًا، وتبطين عشرات الكيلومترات من الترع داخل القرى لتوفير المياه وتقليل الفاقد.
+
+أما على صعيد التمكين الاقتصادي، فقد تم تمويل أكثر من 100 ألف مشروع صغير ضمن المبادرة، ما وفر ما يزيد عن 400 ألف فرصة عمل مباشرة وغير مباشرة، بالإضافة إلى دعم الأسر المنتجة، وتوفير تدريبات مهنية في العديد من القرى. كما تم تفعيل خدمات التأمين الصحي، وتوسيع مظلة الحماية الاجتماعية، من خلال التكامل مع برامج "تكافل وكرامة" التي تغطي الملايين من الأسر الفقيرة.
+
+إن "حياة كريمة" لا تقتصر على الإنشاءات والبنية التحتية، بل تسعى أيضًا إلى بناء الإنسان المصري وتغيير واقع الريف بشكل جذري، ليصبح بيئة ملائمة للعيش الكريم، والتنمية المتوازنة، والمشاركة المجتمعية الفعالة. ولعل أهم ما يميز هذه المبادرة هو اعتمادها على المشاركة الشعبية من خلال جلسات استماع في القرى، وتفعيل دور المجتمع المدني في التنفيذ، وهو ما أتاح تحقيق استجابة حقيقية لاحتياجات الناس الفعلية وليس مجرد تنفيذ نماذج جاهزة.
+
+وقد حازت المبادرة على اهتمام عالمي، حيث تم إدراجها ضمن أفضل المبادرات التنموية على مستوى العالم من قبل منظمة الأمم المتحدة في تقريرها لعام 2021 حول أفضل الممارسات الدولية لتحقيق أهداف التنمية المستدامة. كما أشادت العديد من المؤسسات الدولية بنهج الدولة المصرية في الاستثمار في العنصر البشري والعدالة المكانية.
+
+في ضوء كل هذه المؤشرات والحقائق، يمكن القول إن "حياة كريمة" ليست مجرد مشروع تنموي، بل هي مشروع وطني لبناء الجمهورية الجديدة، يتجاوز فكرة تحسين المرافق إلى إعادة صياغة العلاقة بين الدولة والمواطن، وتمكين الريف من أن يكون شريكًا حقيقيًا في التنمية، لا مجرد متلقٍ لها. وهي بداية عهد جديد يُعاد فيه الاعتبار للإنسان المصري أينما كان، ويُرسخ فيه مفهوم العدالة الاجتماعية والكرامة الإنسانية كحق أصيل لا منّة فيه.
+
+
+	</P>
+    <img src="gallery2.jpg" alt="مشروع حياة كريمة في الريف المصري">
+    
+  </section>
+ 
+  <footer>
+    &copy; 2025 - جميع الحقوق محفوظة لمبادرة مصر بعيون النيل
+  </footer>
+
+</body>
+</html>

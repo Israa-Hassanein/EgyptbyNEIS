@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مصر بعيون النيل</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0077b6;
+      --secondary-color: #023e8a;
+      --background-color: #eef6f9;
+      --section-bg: #ffffff;
+      --accent-color: #caf0f8;
+      --text-color: #222;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 2;
+    }
+
+    header {
+      background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--secondary-color);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    nav {
+      background-color: var(--secondary-color);
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: var(--section-bg);
+      padding: 50px;
+      border-radius: 18px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 25px;
+      font-size: 2em;
+    }
+
+    p {
+      margin-bottom: 25px;
+      font-size: 1.1em;
+      text-align: justify;
+    }
+
+    img, video {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .gallery-section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 50px;
+      background-color: var(--section-bg);
+      border-radius: 18px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+    }
+
+    .gallery-section h2 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 35px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(2, 62, 138, 0.85);
+      color: #fff;
+      padding: 15px;
+      font-size: 1em;
+      text-align: center;
+      transform: translateY(100%);
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover .gallery-info {
+      transform: translateY(0);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #f1f1f1;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مبادرة "مصر بعيون النيل"</h1>
+  </header>
+
+  <nav>
+    <a href="#page1">الرئيسية</a>
+    <a href="#page2">إنجازات الدولة</a>
+    <a href="#page3">المشروعات القومية</a>
+    <a href="#page4">دور الطلاب</a>
+    <a href="#page5">مواجهة الشائعات</a>
+	<a href="#page6">تصور لمستقبل مصر</a>
+  </nav>
+
+  <section id="page1">
+    <h2>مقدمة عن المبادرة</h2>
+    <p>
+      "مصر بعيون النيل" هي مبادرة وطنية تسعى إلى بناء وعي طلابي مستنير يعتمد على المعرفة والتحليل، وتهدف إلى توثيق ما حققته الدولة من إنجازات عملاقة في مختلف المجالات، ودعم التفكير النقدي في مواجهة الشائعات وتزييف الحقائق.
+    </p>
+    <img src="شط-النيل-بالقاهرة-نصائح-لتجربة-مميزة.jpg" alt="نهر النيل في القاهرة">
+    <video controls>
+      <source src="Video.mp4" type="video/mp4">
+      المتصفح لا يدعم تشغيل الفيديو.
+    </video>
+  </section>
+
+  <section id="page2">
+    <h2>إنجازات الدولة المصرية</h2>
+    <p>
+      شهدت مصر في السنوات الأخيرة نهضة عمرانية وتنموية هائلة، شملت تطوير البنية التحتية، وبناء مدن ذكية، وتحديث شبكة الطرق والكباري، بالإضافة إلى مشاريع الإسكان الاجتماعي التي تهدف إلى توفير حياة كريمة للمواطنين.
+    </p>
+    <p>
+      في مجال التعليم، تم إدخال نظم تعليمية رقمية حديثة، وبناء مدارس جديدة، وتطوير مناهج ترتكز على مهارات التفكير. كما تم تعزيز منظومة الرعاية الصحية ببناء المستشفيات وتطوير وحدات الرعاية الأولية.
+    </p>
+    <img src="11445.jpg" alt="حياة كريمة">
+    <video controls>
+      <source src="Video2.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="gallery-section" id="gallery">
+    <h2>المشروعات القومية لمصر </h2>
+    <div class="gallery-grid">
+      <a href="page1.html" class="gallery-item">
+        <img src="gallery1.jpg" alt="صورة 1">
+        <div class="gallery-info">العاصمة الإدارية الجديدة</div>
+      </a>
+      <a href="page2.html" class="gallery-item">
+        <img src="gallery2.jpg" alt="صورة 2">
+        <div class="gallery-info">مشروع حياة كريمة في الريف المصري</div>
+      </a>
+      <a href="page3.html" class="gallery-item">
+        <img src="gallery3.jpg" alt="صورة 3">
+        <div class="gallery-info">تطوير شبكة الطرق والكباري</div>
+      </a>
+      <a href="page4.html" class="gallery-item">
+        <img src="gallery4.jpg" alt="صورة 4">
+        <div class="gallery-info">محطة الطاقة الشمسية في بنبان</div>
+      </a>
+    </div>
+  </section>
+
+  <section id="page3">
+    <h2>المشروعات القومية الكبرى</h2>
+    <p>
+      أطلقت الدولة العديد من المشروعات القومية، أبرزها العاصمة الإدارية الجديدة، ومشروع الدلتا الجديدة الزراعي، وتطوير الموانئ، ومبادرة حياة كريمة التي تهدف إلى تحسين حياة 60 مليون مصري في القرى.
+    </p>
+    <p>
+      هذه المشروعات لا تخدم فقط الاقتصاد، بل تؤسس لبيئة معيشية أفضل، وتخلق فرص عمل، وتعزز من مكانة مصر إقليميًا ودوليًا.
+    </p>
+    <img src="shutterstock_2450133049-scaled.jpg" alt="العاصمة الإدارية الجديدة">
+    <video controls>
+      <source src="Video3.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section id="page4">
+    <h2>دور الطلاب في المبادرة</h2>
+    <p>
+      تهدف المبادرة إلى تمكين الطلاب من التعبير عن رؤيتهم لمستقبل وطنهم من خلال مشاريع رقمية، وأبحاث توثيقية، وفيديوهات توعوية. المشاركة الطلابية تعزز الإبداع، وتغرس الانتماء، وتحفزهم ليكونوا مواطنين فاعلين.
+    </p>
+    <p>
+      كما تعمل المبادرة على ربط الطلاب بالواقع المجتمعي،و تجعل منهم عناصر مهمة لنشر الوعي بالمشروعات القةمية الكبرى و الإنجازات الوطنية 
+    </p>
+    <img src="111111111.jpg" alt="طلاب يشاركون في المبادرة">
+  </section>
+
+  <section id="page5">
+    <h2>مواجهة الشائعات وتعزيز الوعي</h2>
+    <p>
+      تواجه مصر تحديات متزايدة في مجال الشائعات والمعلومات المغلوطة، خاصة في ظل الانتشار الواسع لوسائل التواصل الاجتماعي. ومن هنا يأتي دور المبادرة في نشر ثقافة التحقق من المعلومات ومقاومة الإشاعات.
+    </p>
+    <p>
+      المبادرة تحفز الطلاب على التفكير النقدي، وتزويدهم بالمهارات اللازمة للتفريق بين الحقيقة والتضليل، ليكونوا خط الدفاع الأول ضد حروب الجيل الرابع والخامس.
+    </p>
+    <video controls>
+      <source src="Video4.mp4" type="video/mp4">
+    </video>
+	<img src="333333-Picsart-AiImageEnhancer.PNG" WIDTH ="700" LENGTH ="1000" >
+  </section>
+  <section id="page6">
+    <h2>رؤية و تصور لمستقبل مصر من خلال ابداعات ابنائها</h2>
+    <p>
+	مستقبل مصر يصنعه أبناؤها المبدعون، الذين يزرعون الأرض علمًا، ويشيّدون المصانع ابتكارًا، وينسجون من الفن والثقافة هوية متجددة. بإبداعاتهم تنهض المدن وتتطور القرى، فتخرج من المعامل ابتكارات هندسية، وتنتج المصانع صناعات محلية متطورة، ويبدع الشباب في البرمجيات والطاقة النظيفة والفنون الحديثة، ليضعوا مصر في قلب المستقبل، شامخة بعبق ماضيها وروح تجددها.
+	</p>
+    <img src="123444444.jpg">
+    <video controls>
+      <source src="video6.mp4" type="video/mp4">
+      المتصفح لا يدعم تشغيل الفيديو.
+    </video>
+  </section>
+
+
+  <footer>
+    &copy; 2025 - جميع الحقوق محفوظة لمبادرة مصر بعيون النيل
+  </footer>
+
+</body>
+</html>
